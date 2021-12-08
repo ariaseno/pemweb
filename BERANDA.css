@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.u-nav-item{
+  font-family: 'Poppins';
+}
+
+.u-section-1 {
+  background-image: url("images/background.png");
+  background-position: 50% 50%;
+  background-size: 105%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 100vh;
+}
+
+.u-section-1 .u-image-1 {
+  width: 427px;
+  height: 231px;
+  margin: 135px auto 0;
+}
+
+.u-section-1 .u-text-1 {
+  font-style: italic;
+  line-height: 1.4;
+  font-size: 2.25rem;
+  width: 650px;
+  margin: -29px auto 0;
+}
+
+.u-section-1 .u-btn-1 {
+  cursor: pointer;
+  border-style: solid;
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-size: 1.25rem;
+  box-shadow: 0 2px 8px 0 rgba(128,128,128,1);
+  margin: 57px auto 60px;
+  padding: 12px 61px 14px 59px;
+}
+
+.u-btn-1:hover{
+  font-weight: 1000;
+  box-shadow: 0 5px 20px 0 rgba(128,128,128,1);
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-1 {
+    width: 573px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 184px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.5rem;
+    width: 340px;
+    margin-top: 18px;
+  }
+}
